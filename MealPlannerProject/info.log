@@ -1,0 +1,35 @@
+2025-11-17 20:58:38,843 - DEBUG - Creating session Factory
+2025-11-17 20:58:39,263 - DEBUG - Committing session
+2025-11-17 20:58:39,269 - DEBUG - Closing session
+2025-11-17 20:58:39,270 - DEBUG - Closed session
+2025-11-17 21:21:48,787 - DEBUG - Creating session Factory
+2025-11-17 21:21:49,196 - DEBUG - Committing session
+2025-11-17 21:21:49,201 - DEBUG - Closing session
+2025-11-17 21:21:49,202 - DEBUG - Closed session
+2025-11-18 09:48:07,277 - DEBUG - Creating session Factory
+2025-11-18 09:48:09,002 - DEBUG - Committing session
+2025-11-18 09:48:09,003 - DEBUG - Closing session
+2025-11-18 09:48:09,004 - DEBUG - Closed session
+2025-11-18 09:48:41,958 - DEBUG - Creating session Factory
+2025-11-18 09:48:42,255 - DEBUG - Committing session
+2025-11-18 09:48:42,259 - DEBUG - Closing session
+2025-11-18 09:48:42,259 - DEBUG - Closed session
+2025-11-18 09:49:10,321 - DEBUG - Creating session Factory
+2025-11-18 09:49:10,629 - DEBUG - Committing session
+2025-11-18 09:49:10,630 - DEBUG - Closing session
+2025-11-18 09:49:10,631 - DEBUG - Closed session
+2025-11-18 09:49:41,210 - DEBUG - Creating session Factory
+2025-11-18 09:49:41,498 - DEBUG - Committing session
+2025-11-18 09:49:41,502 - DEBUG - Closing session
+2025-11-18 09:49:41,503 - DEBUG - Closed session
+2025-11-18 09:50:23,973 - DEBUG - Creating session Factory
+2025-11-18 09:50:23,975 - DEBUG - Fetching recipe by category 'Lunch' from the database
+2025-11-18 09:50:24,009 - DEBUG - Recipe found: Rainbow Power Salad with Roasted Chickpeas in category 'Lunch'
+2025-11-18 09:50:24,015 - DEBUG - Committing session
+2025-11-18 09:50:24,022 - DEBUG - Closing session
+2025-11-18 09:50:24,024 - DEBUG - Closed session
+2025-11-18 09:50:44,816 - DEBUG - Creating session Factory
+2025-11-18 09:50:44,817 - DEBUG - Fetching recipe by name ' Overnight Oats with Peanut Butter and Banana' from the database
+2025-11-18 09:50:44,836 - DEBUG - Committing session
+2025-11-18 09:50:44,843 - DEBUG - Closing session
+2025-11-18 09:50:44,844 - DEBUG - Closed session

@@ -1,0 +1,15 @@
+streamlit
+requests
+bcrypt
+fastapi[standard]
+uvicorn
+sqlalchemy
+sqlmodel
+requests
+pydantic
+pandas
+reportlab
+pymysql
+cryptography
+mysqlclient
+mysql-connector-python

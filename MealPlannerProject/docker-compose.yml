@@ -1,0 +1,30 @@
+name: planner
+
+
+services:
+  api:
+    build: ./
+    restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./:/api
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build:
+      context: ./frontend
+    restart: always
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - ./frontend:/streamlit_app
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+
+networks:
+  app-network:
+    driver: bridge

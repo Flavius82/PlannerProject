@@ -1,0 +1,87 @@
+1. User Registration and Login
+
+The goal here is to ensure users can securely create an account and sign in.
+
+Test Scenario:
+- Successful Registration
+
+Test Cases:
+Enter valid, unique information (email, password, etc.) in all required fields
+and verify a new account is created and the user is redirected to the dashboard or a confirmation page.
+
+Test Scenario:
+- Invalid Registration
+
+Test Cases:
+Test with invalid data (e.g., invalid email format, weak password,
+mismatched "confirm password") and verify appropriate error messages are displayed and the account is not created.
+
+Test Scenario:
+- Successful Login
+
+Test Cases:
+Enter valid credentials for an existing account and verify the user is logged in.
+
+Test Scenario:
+- Failed Login
+
+Test Cases:
+Enter incorrect credentials (wrong email or password) and verify an error message is displayed and the user is not logged in.
+
+Test Scenario:
+- Logout
+
+Test Cases:
+After logging in, click the logout button and verify the user is logged out.
+
+Test Scenario:
+- Failed Logout
+
+Test Cases:
+Enter incorrect credentials (wrong email or password) and verify an error message is displayed and the user is not logged out.
+
+2. Recipes and Ingredients
+
+The goal is to confirm users can manage recipes and ingredients effectively.
+
+Test Scenario:
+- View Recipe
+
+Test Cases:
+View a list of recipes and verify that each recipe displays correct information.
+Select a recipe name from the list and verify the recipe details are displayed correctly.
+Select a recipe category from the list and verify the recipes details are displayed correctly.
+
+Test Scenario:
+- View ingredient
+
+Test Cases:
+View a list of ingredients and verify that each ingredient displays correct information.
+View a list of ingredients for a selected recipe and verify that each ingredient displays correct information.
+
+3. Meal Planning
+
+The goal is to ensure users can manage meal plans.
+
+Test Scenario:
+- View Meal Plans
+
+Test Cases:
+View a list of meal plans and verify that each meal plan displays correct information.
+
+Test Scenario:
+- View recipes for a specific meal plan and category
+
+Test Cases:
+Select a meal plan and category from the list and verify the recipes details are displayed correctly.
+
+4. General testing areas
+
+Usability Testing:
+Ensure the application is user-friendly and intuitive.
+
+Compatibility Testing:
+Test the application on different UI platforms (FastAPI, Streamlit) to ensure consistent behavior.
+
+Performance Testing:
+Evaluate the application's responsiveness and stability under various conditions.
